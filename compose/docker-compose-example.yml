@@ -1,0 +1,16 @@
+version: '2'
+services:  
+  builder:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/app
+    environment:
+      AWS_KEY: XXXXX
+      AWS_SECRET: XXXXX
+      BUCKET_NAME: XXXXX
+      CLOUDFRONT_ID: XXXXX
+      DOMAIN: XXXXX
+      EMAIL: XXXXX
+    command: /bin/bash -c "./app/cloudfront.sh"
