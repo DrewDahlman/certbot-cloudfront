@@ -9,7 +9,7 @@ Quick Docker python container to be able to install lets encrypt on cloudfront.
 
 ## Running
 - Create a new `docker-compose-example.yml` file with the project name appended to it and save into the `compose` directory.
-	- example: `docker-compose-2017ad.yml` ( 2017ad.legworkstudio.com )
+	- example: `docker-compose-my-app.yml`
 - Fill in the credentials
 - run `docker-compose -f compose/docker-compose-PROEJCT.yml up`
 - Party!
