@@ -16,3 +16,5 @@ Quick Docker python container to be able to install lets encrypt on cloudfront.
 
 ## Notes
 On first run you may need to adjust cloudfront to enforce SSL, and you will get an email when the cert is going to expire, just run again and boom.
+
+DO NOT commit this anywhere public as your keys are visible.
